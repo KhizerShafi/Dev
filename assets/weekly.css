@@ -1,0 +1,108 @@
+.nav{
+    justify-content: right;
+    background-color: #f0f0f0;
+    height: 20px;
+    padding: 10px;
+    color: brown;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+
+}
+.links{
+    float: right;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    margin-right: 30px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+a{
+    color: brown;
+}
+.contact{
+    text-align: center;
+    color: brown;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20vh;
+
+    display: flex;
+    flex-direction: row;
+    gap: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 100%;
+
+}   
+.purpose{
+text-align: center;
+background-color: #eae6e6;
+padding: 20px;
+margin-bottom: 20px;
+height: 150px;
+}
+.logo{
+
+    float: left;
+}
+h6{
+    margin: 0px;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.box{
+    text-align: center;
+    height: 200px;
+    border-radius:2px solid black;
+    padding: 5px;
+    gap: 10px;
+
+}
+.s1{
+    
+    background-color: cadetblue;
+}
+.s2{
+    background-color: coral;
+}
+.s3{
+    background-color: rgb(145, 139, 184);
+}
+
+.samples{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;  
+
+}
+
+.card{
+    background-color: lightgrey;
+}
+
+.icon{
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    overflow: hidden;
+    object-fit:cover;
+
+}

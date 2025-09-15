@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+
+<style>
+
+.body{
+      text-transform: uppercase;
+      color:black;
+      font-family: Arial;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+       justify-content: center;
+}
+
+.header{
+    text-align: center;
+    background-color: rgb(170, 170, 240);
+    margin-bottom: 1vh;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black solid;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 45vh;
+    width: 60vw;
+    background-color:rgb(137, 58, 58);
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    background-color: rgb(236, 198, 233);
+    height: 40vh;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+
+}
+.right{
+    background-color: rgb(144, 255, 235);
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+
+}
+
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+    margin-top: 2vh;
+    margin-bottom: 5px;
+    height: 10vh;
+    width: 35vw;
+
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(170, 170, 240);
+    margin-bottom: 1vh;
+    height: 5vh;
+    margin-top: 50vh;
+    width: 60vw;
+    border: solid black;
+    float: right;
+
+}
+    .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: #f0f0f0;
+    gap: 20px;
+    padding: 10px;
+    color: brown;
+
+}
+
+
+</style>
+
+</head>
+<body class="body">
+
+  <header>
+    <nav class="nav">
+      <a href="weekly.html">Home</a>
+      <a href="task1.html">Task 1</a>
+      <a href="task2.html">Task 2</a>
+      <a href="task3.html">Task 3</a>
+    </nav>
+    </header>
+<div class="container">
+    
+    <div class="left">Nav</div>
+    <div class="right">
+        <section class="inner " style=" background-color: rgb(233, 221, 232);"> Section</section>
+        <main class="inner " style=" background-color: rgb(245, 247, 136);">Main</main>
+        <section class="inner " style=" background-color: rgb(242, 249, 199);">Aside </section>
+
+
+    </div>
+
+</div>
+
+<footer class="footer"> Footer</footer>
+
+
+</body>
+</html>

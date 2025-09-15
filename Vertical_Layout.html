@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space;
+            background-color: #f0f0f0;
+            gap: 20px;
+            padding: 10px;
+            color: brown;
+    
+
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            list-style: none;
+
+        }
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(133, 133, 222);
+            color: antiquewhite;
+            align-items: center;
+            padding: 5px;
+            list-style: none;
+
+        }
+
+        .right {}
+
+
+        .in {
+            height: 25vh;
+            width: 100vw;
+            background-color: rgb(235, 145, 240);
+        }
+
+        .in1 {
+            background-color: rgb(247, 228, 222);
+        }
+
+        .in2 {
+            background-color: chartreuse;
+        }
+
+        p {
+            padding-left: 10px;
+        }
+
+        table,
+        th,
+        td {
+            border: solid 0.5px;
+            border-collapse: collapse;
+            padding: 10px;
+
+        }
+
+        h2 {
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <nav class="nav">
+        <span>Khizer Shafi</span>
+        <a href="task1.html">Task 1</a>
+        <a href="task2.html">Task 2</a>
+        <a href="task3.html">Task 3</a>
+    </nav>
+</header>
+
+
+    <div class="container">
+        <div class="left">
+            <h3>Navigation</h3>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <div class="right">
+
+            <div class="in1 in">
+
+                <table style="width: 50%;" class="table">
+                    <tr>
+                        <th>Name</th>
+                        <td>
+                            <input placeholder="Enter Your Name">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>Email</th>
+                        <td><input placeholder="Enter Your Name"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"> <input type="submit"></td>
+                    </tr>
+
+
+                </table>
+
+
+
+            </div>
+
+            <div class="in2 in">
+                <h2>Main Section</h1>
+                    <p>This is main section of page</p>
+            </div>
+
+            <div class="in3 in">
+                <h2>This is 2nd Article</h1>
+                    <p>This is para below 2nd article</p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

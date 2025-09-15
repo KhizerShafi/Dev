@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        height: 400px;
+        width: 600px;
+        background-color: rgb(254, 247, 52);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      }
+      .green {
+        height: 300px;
+        width: 400px;
+        background-color: rgb(6, 103, 24);
+        position: relative;
+      }
+      .white {
+        height: inherit;
+        width: 100px;
+        background-color: rgb(248, 245, 245);
+      }
+      .fix {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .moon{
+        position: absolute;
+        border-radius: 100px;
+        background-color: rgb(246, 249, 251);
+        height: 90px;
+        width:90px ;
+        margin-left: 200px;
+        margin-top: 100px;
+        border-radius: solid 20px black;
+      }
+      .out{
+        margin-top:90px;
+        margin-left: 220px;
+        background-color: rgb(6, 103, 24);
+        border-radius: solid 20px black;
+      }
+      h2{
+        text-align: center;
+        padding-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <h2>Testing My position concept</h2> -->
+      <div class="fix">
+        <div class="green">
+          <div class="moon"></div>
+          <div class="moon out"></div>
+          <div class="white"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
